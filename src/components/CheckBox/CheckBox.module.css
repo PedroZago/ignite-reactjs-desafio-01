@@ -1,0 +1,37 @@
+.checkbox button {
+  width: 1rem;
+  height: 1rem;
+
+  cursor: pointer;
+  line-height: 0;
+
+  border-radius: 50%;
+}
+
+.checkbox button svg {
+  font-size: 0.6rem;
+}
+
+.checked {
+  background: transparent;
+  color: transparent;
+
+  border: 1px solid var(--blue);
+}
+
+.checked:hover {
+  background-color: rgba(30, 111, 159, 0.2);
+  border: 1px solid var(--blue-dark);
+}
+
+.unchecked {
+  background-color: var(--purple-dark);
+  color: var(--white);
+
+  border: 1px solid var(--purple-dark);
+}
+
+.unchecked:hover {
+  background: var(--purple);
+  border: 1px solid var(--purple);
+}

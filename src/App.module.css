@@ -1,0 +1,42 @@
+.wrapper {
+  max-width: 46rem;
+
+  margin: 0rem auto;
+  margin-top: -1.6875rem;
+  padding: 0 1rem;
+
+  flex: 1;
+  align-items: flex-start;
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 87.5%;
+  }
+}
+
+.todoForm {
+  width: 100%;
+
+  display: flex;
+  gap: 8px;
+
+  margin-bottom: 4rem;
+}
+
+.todoForm input {
+  width: 39.875rem;
+  height: 3.375rem;
+
+  background: var(--gray-500);
+  border: 1px solid var(--gray-700);
+  color: var(--gray-300);
+
+  padding: 1rem;
+  border-radius: 0.5rem;
+  line-height: 1.4;
+}
+
+article + article {
+  margin-top: 1rem;
+}

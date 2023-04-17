@@ -1,0 +1,25 @@
+.createButton button {
+  padding: 1rem;
+
+  border-radius: 0.5rem;
+  border: 0;
+  background: var(--blue-dark);
+  color: var(--white);
+  font-weight: bold;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+
+  transition: background-color 0.1s;
+}
+
+.createButton button:not(:disabled):hover {
+  background: var(--blue);
+}
+
+.createButton button:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}

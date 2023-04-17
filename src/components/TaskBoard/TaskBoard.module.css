@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+
+  margin-bottom: 1.5rem;
+}
+
+.headerColumn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.createdTasksCount {
+  color: var(--blue);
+}
+
+.completedTasksCount {
+  color: var(--purple);
+}
+
+.emptyList {
+  height: 15.25rem;
+
+  border-top: 1px solid var(--gray-400);
+  border-radius: 0.5rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.emptyList svg {
+  font-size: 3.5rem;
+}
